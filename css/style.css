@@ -5,14 +5,66 @@
     box-sizing: border-box;
 
 }
+
+a{ text-decoration: none;
+    
+}
+
+/* FONT */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* MAIN HEADER */
 .main-header {
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
     padding-left: 15px;
     padding-top: 8px;
+    font-weight: 700;
 }
 
 .logo-header{
     vertical-align: middle;
+}
+
+/* PARTE CENTRALE */
+
+.container{
+    max-width: 900px;
+    margin-left: 40%;
+    margin-right: auto;
+}
+
+/* BOTTONI */
+
+.buttons{
+    display: inline-block;
+    margin-right: 6px;
+    padding-top: 50px;
+    font-size: 15px;
+}
+
+.button1{
+    background-color: #47ADF1;
+    height: 30px;
+    width: 80px;
+    border-radius: 10%;
+    padding: 5px;
+    color: white;
+    border: 1px solid;
+    
+    
+}
+
+.button2 {
+    background-color: white;
+    color: #D4D8DC;
+    height: 30px;
+    width: auto;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 10%;
+    
+
 }
