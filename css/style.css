@@ -1,0 +1,18 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* MAIN HEADER */
+.main-header {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    padding-top: 8px;
+}
+
+.logo-header{
+    vertical-align: middle;
+}
