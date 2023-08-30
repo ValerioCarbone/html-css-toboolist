@@ -10,6 +10,9 @@ a{ text-decoration: none;
     
 }
 
+li, ul, ol, menu {
+    list-style: none;
+}
 
 /* FONT */
 
@@ -69,27 +72,25 @@ body{
 /* SIMBOLI CON CERCHIO */
 
 .check-circle{
-    font-size: 11px;
+    display: inline-block;
+    font-size: 10px;
     color:#71C6B2;
     border-radius: 50%;
     border-color:#71C6B2;
     border: 2px solid;
-    padding: 0px 2px;
-    margin-right: 3px;
-    margin-left: 2px;
+    aspect-ratio: 1 / 1;
     
  }
 
  .x-circle{
-    font-size: 12px;
+    display: inline-block;
+    font-size: 10px;
     color:#EB5B54;
-    border-radius: 49%;
+    border-radius: 50%;
     border-color:#EB5B54;
     border: 2px solid;
-    padding: 0px 3px;
-    margin-right: 2px;
-    margin-left: 2px;
-
+    aspect-ratio: 1;
+    padding-inline: 2px;
  }
 
 /* STILE E SPAZIATURE */
