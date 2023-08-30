@@ -73,24 +73,28 @@ body{
 
 .check-circle{
     display: inline-block;
-    font-size: 10px;
+    font-size: 9px;
     color:#71C6B2;
     border-radius: 50%;
     border-color:#71C6B2;
     border: 2px solid;
-    aspect-ratio: 1 / 1;
+    width: 16px;
+    aspect-ratio: 1;
+    text-align: center;
     
  }
 
  .x-circle{
     display: inline-block;
-    font-size: 10px;
+    font-size: 11px;
     color:#EB5B54;
     border-radius: 50%;
     border-color:#EB5B54;
     border: 2px solid;
+    width: 16px;
+    padding-inline: 1px;
     aspect-ratio: 1;
-    padding-inline: 2px;
+    text-align: center;
  }
 
 /* STILE E SPAZIATURE */
