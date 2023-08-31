@@ -111,57 +111,45 @@ body{
 
 /* CATEGORIE  */
 
-.category-editorial{
+.category{
+    display: inline-block;
     font-size: 8px;
     color: white;
+    border-radius: 30%;
+    padding: 5px;
+    vertical-align: middle;
+    line-height: 12px;
+ }
+
+.category-editorial {
+    
     background-color: #47ADF1;
-    border-radius: 30%;
-    padding: 5px;
-    vertical-align: middle;
- }
-
- .category-q1goals{
-    font-size: 8px;
-    color: white;
+}
+    
+.category-q1goals {
+    
     background-color: #9C72E4;
-    border-radius: 30%;
-    padding: 5px;
-    vertical-align: middle;
-
- }
+    
+}
 
  .category-recruiting {
-    font-size: 8px;
-    color: white;
+    
     background-color: #64C0A9;
-    border-radius: 30%;
-    padding: 5px;
-    vertical-align: middle;
+    
  }
 
- .category-mobile{
-    font-size: 8px;
-    color: white;
+ .category-mobile {
+    
     background-color: #F29E33;
-    border-radius: 30%;
-    padding: 5px;
-    vertical-align: middle;
+    
  }
 
- .category-website{
-    font-size: 8px;
-    color: white;
+ .category-website {
+    
     background-color: #D863A1;
-    border-radius: 30%;
-    padding: 5px;
-    vertical-align: middle;
  }
 
  .category-sales{
-    font-size: 8px;
-    color: white;
+    
     background-color: #B0C926;
-    border-radius: 30%;
-    padding: 5px;
-    vertical-align: middle;
  }
